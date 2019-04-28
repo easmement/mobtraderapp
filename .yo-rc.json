@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "zotis.mtapp"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "monolith",
+    "baseName": "mobtraderapp",
+    "packageName": "zotis.mtapp",
+    "packageFolder": "zotis/mtapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MmM5MjdlMjNhMDhkODBkNDhhYmUzYmIxYjc3ZmM4NzhmNWFkNTM1MmY2YWFjMjAyNDYzMzA3YjNiYzJjZjAyMDEwNDk2NGY5ZGNkNWEzYWIyNzM4NDQ5MGE2YmQ3ZTAzODIyYzM4MzhlOWJlMGJjNjhhZjBkMzdlZTllZjMzZDI=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
