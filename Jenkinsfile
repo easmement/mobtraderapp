@@ -32,16 +32,16 @@ node {
         }
     }
 
-    stage('frontend tests') {
-        try {
+    //stage('frontend tests') {
+    //    try {
             // sh "./mvnw com.github.eirslett:frontend-maven-plugin:npm -Dfrontend.npm.arguments='test -- -u'"
-            sh "yarn run test"
-        } catch(err) {
-            throw err
-        } finally {
-            junit '**/target/test-results/jest/TESTS-*.xml'
-        }
-    }
+            // sh "yarn run test"
+    //    } catch(err) {
+    //        throw err
+    //    } finally {
+    //        junit '**/target/test-results/jest/TESTS-*.xml'
+    //    }
+    // }
 
     stage('packaging') {
         sh "./mvnw verify -Pprod -DskipTests"
